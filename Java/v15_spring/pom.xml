@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Proyecto padre de las guías de Spring Boot (sección 15 del ROADMAP).
+
+    Es un proyecto Maven "multi-módulo": este pom no tiene código, solo
+    reúne a los módulos (uno por parte de la ruta) y les da a todos la
+    misma configuración. Cada módulo declara SOLO las librerías que su
+    parte necesita, para que lo de una parte no afecte a otra.
+
+    Hereda de spring-boot-starter-parent: de ahí salen las versiones de
+    TODAS las librerías del ecosistema, probadas para funcionar juntas
+    (part1_core/.../SpringAndBoot, CAPA 3).
+
+    Cómo se usa (desde esta carpeta, v15_spring/):
+        ./mvnw test                                       todas las pruebas
+        ./mvnw -pl part1_core test -Dtest=SpringAndBootTest   una guía
+    En PowerShell o CMD: mvnw.cmd en vez de ./mvnw.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>4.1.2</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>com.practice.spring</groupId>
+    <artifactId>spring-guides</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>spring-guides</name>
+
+    <modules>
+        <module>part1_core</module>
+        <module>part2_web</module>
+        <module>part3_data</module>
+        <module>part4_testing</module>
+        <module>part5_security</module>
+        <module>part6_production</module>
+        <module>final_project</module>
+    </modules>
+
+    <properties>
+        <!-- Se compila para Java 25 (la LTS que usan las empresas) aunque el JDK instalado sea más nuevo. -->
+        <java.version>25</java.version>
+        <!-- Vacía por defecto; Surefire le agrega el agente de Mockito (abajo). -->
+        <argLine></argLine>
+    </properties>
+
+    <build>
+        <plugins>
+            <!--
+                Mockito como AGENTE de Java en las pruebas. Sin esto, Mockito se carga "por la fuerza"
+                al ejecutar y avisa que dejará de funcionar en próximas versiones del JDK
+                (part4_testing/.../UnitAndSliceTests, CAPA 5). El plugin de dependencias expone la ruta
+                del jar como la propiedad ${org.mockito:mockito-core:jar}, y Surefire la pasa a la JVM.
+            -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>properties</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <argLine>@{argLine} -javaagent:"${org.mockito:mockito-core:jar}"</argLine>   <!-- comillas: rutas con espacios -->
+                </configuration>
+            </plugin>
+        </plugins>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <configuration>
+                        <compilerArgs>
+                            <arg>-Xlint:all</arg>
+                        </compilerArgs>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>

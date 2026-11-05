@@ -1,0 +1,23 @@
+{
+  "company": "Unitedcode (Karmacheck)",
+  "website": "https://karmacheck.com/",
+  "jobLink": "https://docs.google.com/document/d/1D6DVY8RSTZxI-lsPOevdT_tAp_MIV-NX8G7sbh3JLJA/edit",
+  "position": "Senior Full-Stack Engineer (Backend heavy)",
+  "techStack": "NodeJS and AWS",
+  "status": "Rechazado",
+  "stage": "Entrevista con Reclutador",
+  "jobType": "Contractor",
+  "ISR": "2.5",
+  "teamSize": "",
+  "applicationDate": "2024-08-20",
+  "industry": "Tool for background check for a company before hiring someone, like criminal record, etc..",
+  "benefits": "After 6 months, unlimited vacation plan\nThey provide me a MacBook Pro\nThe budget for this position starts at $5,500.\nThe budget for this job is up to $7000-$7500.\n\nFirst interview is with the CTO",
+  "notes": "Ya no me contactaron\n\n7+ years (or equivalent experience) in design and development \n5+ years experience in NodeJS \n3+ years developing software on AWS function (API Gateway, Lambda, SQS, SNS, EventBridge, Cloudwatch, RDS, etc)\nExtensive experience in Server side communications and integrations with 3rd party APIs\n2+ years experience with SQL (preferably MySQL)\nAbility to adjust to changing priorities as is common in a startup environment",
+  "hourlySalaryUSD": "$32",
+  "monthlySalaryUSD": "$5,500",
+  "annualSalaryUSD": "$66,000",
+  "monthlySalaryMXN": "$104,310",
+  "annualSalaryMXN": "$1,251,718",
+  "monthlyNetSalaryMXN": "$101,702",
+  "annualNetSalaryMXN": "$1,220,425"
+}

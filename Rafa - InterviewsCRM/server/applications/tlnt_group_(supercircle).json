@@ -1,0 +1,23 @@
+{
+  "company": "TLNT Group (SuperCircle)",
+  "website": "https://www.supercircle.world/",
+  "jobLink": "https://jobs.lever.co/tlnt/1962554a-9b7f-4a1c-81bc-beb4fe098a29",
+  "position": "Senior Full-Stack Engineer",
+  "techStack": "Typescript, React, Tailwind, DynamoDB, AWS Lambda",
+  "status": "Activo",
+  "stage": "Entrevista con Reclutador",
+  "jobType": "Contractor",
+  "ISR": "2.5",
+  "teamSize": "",
+  "applicationDate": "2024-09-17",
+  "industry": "Nearshoring\nSuperCircle, a leading and innovative SaaS startup based in NY. They are revolutionizing textile circularity through cutting-edge technology solutions for the world's best retail brands. \n\nThis is an opportunity to join a team making a significant impact on the environment and the fashion industry through innovative, sustainable solutions. ",
+  "benefits": "This is a 100% remote position and compensation starts at $6,500 to $7,500 USD/month (negotiable) + perks package.\n15 days of paid PTOs\nUS holidays\n\n3 members, one part-time\nCTO: architecture \nLead engineer: lead full-stack has focus in BE\n\n3 interviews\n2 technical + 1 behavioral",
+  "notes": "They are seeking a Sr. Fullstack Engineer with a strong focus in the frontend (React.js)\n\nDesign, develop, and maintain scalable and secure full-stack applications using Typescript, NoSQL databases (e.g., DynamoDB), serverless architecture (e.g., AWS Lambda), React, and Tailwind CSS. \n\nAs the Sr. Fullstack Engineer, you’ll need a strong background in developing robust web applications using Typescript, NoSQL databases, serverless architecture, React, and Tailwind CSS. This role involves architecting, designing, and implementing scalable and efficient solutions to meet business objectives. ",
+  "hourlySalaryUSD": "$40",
+  "monthlySalaryUSD": "$7,000",
+  "annualSalaryUSD": "$84,000",
+  "monthlySalaryMXN": "$134,375",
+  "annualSalaryMXN": "$1,612,499",
+  "monthlyNetSalaryMXN": "$131,016",
+  "annualNetSalaryMXN": "$1,572,187"
+}

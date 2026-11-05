@@ -1,0 +1,3 @@
+# Docker solo necesita el jar: lo demás no se manda al "build context" (packaging/PackagingAndDocker, CAPA 4).
+*
+!target/*.jar

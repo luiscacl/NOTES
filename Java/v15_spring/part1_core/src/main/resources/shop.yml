@@ -1,0 +1,17 @@
+# Configuración de la guía config/ExternalConfiguration.
+# Se llama shop.yml (y no application.yml) para que solo la lea esa guía:
+# su aplicación arranca con --spring.config.name=shop.
+
+shop:
+  name: Tienda Demo
+  payments:
+    provider-url: https://sandbox.pagos.example   # en prod se cambia (shop-prod.yml)
+    timeout: 5s                                    # Duration: "5s", "500ms", "2m"
+    max-retries: 3
+    api-key: ${PAYMENTS_API_KEY:}                  # secreto: SIEMPRE desde afuera; vacío si no está
+  upload:
+    max-size: 10MB                                 # DataSize: "10MB", "512KB"
+  allowed-countries:
+    - MX
+    - US
+    - CA

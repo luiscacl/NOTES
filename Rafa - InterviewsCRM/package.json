@@ -1,0 +1,17 @@
+{
+  "name": "interviews-crm",
+  "version": "1.0.0",
+  "scripts": {
+    "app": "cd app && npm start",
+    "server": "cd server && node index.js",
+    "dev": "concurrently \"npm run server\" \"npm run app\"",
+    "build": "cd app && npm run build && cd .. && rm -rf server/build && mv app/build server",
+    "start": "npm run server"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

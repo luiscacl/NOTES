@@ -1,0 +1,23 @@
+{
+  "company": "Terminal.io (Orum)",
+  "website": "https://www.orum.com/",
+  "jobLink": "https://www.terminal.io/engineers/job-openings/full-stack/orum/5123/senior-software-engineer-mexico-postgres-node-ruby-gcp",
+  "position": "Senior Full-Stack Engineer",
+  "techStack": "NodeJS with Typescript, Ruby, Postgres, Google Cloud Platform, and FreeSWITCH",
+  "status": "Activo",
+  "stage": "Code Challenge",
+  "jobType": "Contractor",
+  "ISR": "2.5",
+  "teamSize": "",
+  "applicationDate": "2024-09-17",
+  "industry": "Nearshoring\nOrum is making sales human again through conversations. We are an AI-driven, live conversation platform that accelerates sales teams by empowering salespeople to achieve more. Orum increases sales efficiency, speeds up pipeline growth, and lowers customer acquisition costs for various companies ranging in size from start-ups to large enterprises. Sales teams using Orum see consistent conversations, more meetings booked, and shorter rep ramp time - all while having fun and not burning out.\n\nTheir Mission is to accelerate sales teams by empowering salespeople to achieve more.\nTheir Vision is to be an iconic company that makes work more human, meaningful, and connected.",
+  "benefits": "The salary range is $5,700 to $8,600 USD per month. This role is for a 12-month contract, if you want to stay with the company after the contract is over you could get hired as a full-time permanent employee or extend as a contractor.",
+  "notes": "Apliqué a 8 trabajos con Easy Apply. Los rangos se encuentran en los 80k - 100k USD aprox\n\nThe Senior Full Stack Engineer role is ideal if you like to work across the stack to deliver significant impact with a small team. You'll be in charge of building and owning features end-to-end, taking it through conception, implementation, shipping, and iteration. Examples include routing calls through our event-based SIP Softswitch, displaying real-time call information in our UI over WebSockets, or processing streaming audio for speech recognition.\n\nRequirements:\nExperience owning a product or feature through its lifecycle - from discovery to deployment\n6+ year experience of professional software development experience\n3+ years of experience building backend applications with Javascript/Typescript\nExperience working with an RDBMS using SQL\nExperience building front ends with React\nFamiliar with Unix shell scripting",
+  "hourlySalaryUSD": "$43",
+  "monthlySalaryUSD": "$7,500",
+  "annualSalaryUSD": "$90,000",
+  "monthlySalaryMXN": "$145,048",
+  "annualSalaryMXN": "$1,740,578",
+  "monthlyNetSalaryMXN": "$141,422",
+  "annualNetSalaryMXN": "$1,697,064"
+}

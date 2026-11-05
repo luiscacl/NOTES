@@ -1,0 +1,23 @@
+{
+  "company": "Andela (Human Interest)",
+  "website": "https://humaninterest.com/",
+  "jobLink": "https://talent.andela.com/jobs/aebe7675-512f-4519-a6c6-62624a29c743",
+  "position": "Senior Full-Stack Engineer",
+  "techStack": "Node.js, React.js, GraphQL, PostgreSQL, AWS, TypeScript.",
+  "status": "Activo",
+  "stage": "Contratado",
+  "jobType": "Contractor",
+  "ISR": "2.5",
+  "teamSize": "8 engineers",
+  "applicationDate": "2024-08-26",
+  "industry": "Nearshoring\nHuman Interest is on a mission to ensure that people in all lines of work have access to retirement benefits. \n\nWe are seeking for a full stack engineer to join the team of one of our most important clients. Our client is on a mission to ensure that people in all lines of work have access to retirement benefits. This is a high-growth tech company changing the retirement industry. They’ve  raised $500M and are backed by leading investors.\nContractor Role for 12 months with possibility of renovation, 100% remote, PST overlap (5 hours) ",
+  "benefits": "First they said that the maximum salary rate is 7k USD monthly\nNow they say that the range is from 5k to 6k, but they will try to offer 6.5k\n\nThe steps are:\n- Quick call with recruiter (10-15min)\n- Take Home Assessment about React (90 min)\n- Technical Interview React (40-50 min)\n- Hiring manager conversation to share details about the client (15-30min)\n- Cultural interview with the client (40-60min)\n\nPortfolio management team, manage all investments of users\nMore FE work\nBuild new FE apps\nAbout a 100 people in the company\nDaily 30min standup",
+  "notes": "Implement front end User Interfaces in ReactJS\nImplement changes in back end Rest and GraphQL APIs in Node.js\n\n5+ years of software engineering experience.\nStrong technical skills and are an excellent collaborator.\nExperience architecting complex SaaS products with Service Oriented Architecture (SOA) and microservices.\nFamiliarity with our tech stack - Node.js, React.js, GraphQL, PostgreSQL, AWS\nStrong knowledge of TypeScript.\nYou implement systems large or small that are clear, maintainable, and correct. \nIndustry experience developing scalable, production quality backend systems.\nA desire to work with JavaScript or TypeScript",
+  "hourlySalaryUSD": "$40",
+  "monthlySalaryUSD": "$7,000",
+  "annualSalaryUSD": "$84,000",
+  "monthlySalaryMXN": "$137,272",
+  "annualSalaryMXN": "$1,647,264",
+  "monthlyNetSalaryMXN": "$133,840",
+  "annualNetSalaryMXN": "$1,606,082"
+}

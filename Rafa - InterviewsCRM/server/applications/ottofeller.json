@@ -1,0 +1,23 @@
+{
+  "company": "Ottofeller",
+  "website": "https://ottofeller.com/",
+  "jobLink": "",
+  "position": "Senior Full-Stack Engineer",
+  "techStack": "Next.js, TypeScript, GraphQL, Hasura",
+  "status": "Activo",
+  "stage": "Code Challenge",
+  "jobType": "Contractor",
+  "ISR": "2.5",
+  "teamSize": "",
+  "applicationDate": "2024-09-08",
+  "industry": "We specialize in full-stack development of tailor-made apps and platforms. Working with backend (TypeScript/Rust/Go), underlying cloud infrastructure, and frontend UI (React/Next.js). Creating custom solutions personalized for each client is our biggest motivation.\n\nWe are a web development company located in Central Europe.\nSince we started back in 2012 as a team of web development and UI/UX specialists, we have successfully launched dozens of projects. Passionate about technology, and strict about quality and stability, we deliver real business value for our customers.",
+  "benefits": "Depending on relevant experience, we offer from $5000.\n$7000 is a figure that can be discussed after the interview.",
+  "notes": "Big California Blockchain FinTech is looking for a Frontend Developer with a focus on Next.js (85%) and some backend with GraphQL. We offer a B2B remote contract position working with a Slovenian-based company (Ottofeller).\n\nWe are especially interested in experience with Next.js + GraphQL",
+  "hourlySalaryUSD": "$35",
+  "monthlySalaryUSD": "$6,000",
+  "annualSalaryUSD": "$72,000",
+  "monthlySalaryMXN": "$119,843",
+  "annualSalaryMXN": "$1,438,118",
+  "monthlyNetSalaryMXN": "$116,847",
+  "annualNetSalaryMXN": "$1,402,165"
+}

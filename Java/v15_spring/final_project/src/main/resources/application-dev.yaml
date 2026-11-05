@@ -1,0 +1,7 @@
+# Perfil "dev": solo en tu máquina (./mvnw -pl final_project spring-boot:run -Dspring-boot.run.profiles=dev).
+# La base de datos la levanta spring-boot-docker-compose con compose.yaml: no hace falta su URL.
+shop:
+  jwt:
+    ephemeral-keys: true           # llaves nuevas en cada arranque: los tokens viejos dejan de servir
+  admin:
+    password: admin-local-123      # SOLO local; en cualquier otro ambiente, SHOP_ADMIN_PASSWORD

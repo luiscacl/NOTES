@@ -1,0 +1,3 @@
+# Docker solo necesita el jar (part6_production/.../PackagingAndDocker, CAPA 4).
+*
+!target/*.jar

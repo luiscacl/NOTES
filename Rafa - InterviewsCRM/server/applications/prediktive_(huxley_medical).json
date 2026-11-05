@@ -1,0 +1,23 @@
+{
+  "company": "Prediktive (Huxley Medical)",
+  "website": "https://www.huxleymed.com/",
+  "jobLink": "https://jobs.crelate.com/portal/prediktive/job/bfkw1zdmn8cyt4guq3ww9omysw",
+  "position": "Senior Full-Stack Engineer",
+  "techStack": "",
+  "status": "Activo",
+  "stage": "Code Challenge",
+  "jobType": "Contractor",
+  "ISR": "2.5",
+  "teamSize": "",
+  "applicationDate": "2024-09-17",
+  "industry": "Nearshoring\nOur client's mission is to bring clinical-grade care to anyone, anywhere. They collaborate with leading clinicians and basic science researchers to develop and market devices and algorithms that improve access to multiple disease diagnoses and treatments.",
+  "benefits": "Compensation could be up to 6k USD per month\n\nLong term positions\nCompensation in USD\nPaid time off\nCool clients and products\nWork with great engineers",
+  "notes": "- Responsibilities\nDesigning software for use in diagnosis and management of cardio-pulmonary diseases by building interactive frontend interfaces, and backend infrastructure.\nDevelop Frontend software for displaying large time-based datasets which help clinicians determine the health status of patients.\nImplement and assist in frontend design for user interaction, interact with other engineers to develop a cohesive system.\nAssisting in documentation and verification of software.\n\n- Requirements\nAdvanced Level of English\nBachelor’s Degree in Computer Science, Systems Engineering or related fields\n5+ years of professional experience building web applications\nProficient in Typescript/Javascript in both browser and in NodeJS\nProficient in ReactJS and related libraries\nExperience writing web APIs (REST, GraphQL)\nStrong experience with version control using GIT\nExperience with AWS cloud services including S3, ECS, Lambda and RDS\nExperience with authentication systems and security controls such as sessions and JWT based auth.\n\n- Bonus Points\nExperience with Python and Related Backend Frameworks (Django)\nExperience within a regulated industry (Medical preferred, Aerospace, Automotive)\nExperience with medical EMR communication systems such as HL7 or FHIR",
+  "hourlySalaryUSD": "$35",
+  "monthlySalaryUSD": "$6,000",
+  "annualSalaryUSD": "$72,000",
+  "monthlySalaryMXN": "$115,179",
+  "annualSalaryMXN": "$1,382,142",
+  "monthlyNetSalaryMXN": "$112,300",
+  "annualNetSalaryMXN": "$1,347,588"
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Parte 6: producción. Observabilidad (Actuator, métricas, logs), tareas asíncronas y
+    programadas, caché, y empaquetado con Docker.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.practice.spring</groupId>
+        <artifactId>spring-guides</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>part6_production</artifactId>
+    <name>part6_production</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-webmvc</artifactId>
+        </dependency>
+        <!-- Actuator: salud, métricas, info, loggers... (observability/Observability). -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <!-- Métricas en el formato de Prometheus, el más usado para guardarlas y graficarlas. -->
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-registry-prometheus</artifactId>
+        </dependency>
+        <!-- @Cacheable y compañía (async/AsyncSchedulingCaching, CAPA 8). @Async y @Scheduled
+             ya vienen en spring-context: no necesitan starter. -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-cache</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-webmvc-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <!-- Construir y arrancar la imagen de Docker desde una prueba (packaging/PackagingAndDocker). -->
+        <dependency>
+            <groupId>org.testcontainers</groupId>
+            <artifactId>testcontainers-junit-jupiter</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!--
+                El plugin de Spring Boot (packaging/PackagingAndDocker, CAPAS 1 y 7):
+                - repackage (en "package"): convierte el jar normal en el jar ejecutable, con las
+                  dependencias adentro. Este módulo tiene tres aplicaciones; el jar arranca UNA.
+                - build-info: escribe META-INF/build-info.properties (versión, fecha), que
+                  /actuator/info muestra solo.
+            -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>com.practice.spring.production.packaging.PackagingAndDocker$PackagedShopApplication</mainClass>
+                    <!-- spring-boot:build-image (CAPA 7): sin esto, el buildpack eligió Java 27 (medido). -->
+                    <image>
+                        <env>
+                            <BP_JVM_VERSION>25</BP_JVM_VERSION>
+                        </env>
+                    </image>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>build-info</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <!-- Las pruebas *IT corren DESPUÉS de "package", cuando el jar ya existe (mvn verify). -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-failsafe-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>

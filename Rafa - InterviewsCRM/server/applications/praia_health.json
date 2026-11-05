@@ -1,0 +1,23 @@
+{
+  "company": "Praia Health",
+  "website": "https://www.praiahealth.com/",
+  "jobLink": "",
+  "position": "Senior Full-Stack Engineer",
+  "techStack": "Node, React, Azure, k8s, OpenID Connect, OAuth 2.0",
+  "status": "Rechazado",
+  "stage": "Entrevista con Reclutador",
+  "jobType": "Contractor",
+  "ISR": "2.5",
+  "teamSize": "5, 1 tech lead, 1 back, 1 front, 1 infra",
+  "applicationDate": "2024-08-21",
+  "industry": "Health care startup. Platform as a Service.\nCreate secure and private account to view next appointments, test results, everything related to health in one place.",
+  "benefits": "Ellos me dan computadora\nJust pay per hour\n$40 - $45, but can go to $50 for right person",
+  "notes": "Big focus in security and authentication. Looking for someone can find weaknesses in the system. 3 people under me, 25% mentorship and code reviews.\n\nThe role has been paused for now.",
+  "hourlySalaryUSD": "$50",
+  "monthlySalaryUSD": "$8,667",
+  "annualSalaryUSD": "$104,000",
+  "monthlySalaryMXN": "$164,367",
+  "annualSalaryMXN": "$1,972,405",
+  "monthlyNetSalaryMXN": "$160,258",
+  "annualNetSalaryMXN": "$1,923,095"
+}

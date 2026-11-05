@@ -1,0 +1,23 @@
+{
+  "company": "deel",
+  "website": "https://www.deel.com/",
+  "jobLink": "https://jobs.ashbyhq.com/Deel/fd7789cb-e175-4c90-aa34-487be5e248fa?departmentId=8c27e7fa-f898-4de1-adf6-70c67c1e1c11",
+  "position": "Senior Backend Engineer",
+  "techStack": "Node.js, TypeScript, SQL, Sequelize, AWS Serverless",
+  "status": "Rechazado",
+  "stage": "Apliqué",
+  "jobType": "Contractor",
+  "ISR": "2.5",
+  "teamSize": "",
+  "applicationDate": "2024-08-08",
+  "industry": "Payroll SaaS",
+  "benefits": "",
+  "notes": "Puse rango de 100k a 120k",
+  "hourlySalaryUSD": "$48",
+  "monthlySalaryUSD": "$8,333",
+  "annualSalaryUSD": "$100,000",
+  "monthlySalaryMXN": "$158,543",
+  "annualSalaryMXN": "$1,902,520",
+  "monthlyNetSalaryMXN": "$154,579",
+  "annualNetSalaryMXN": "$1,854,957"
+}

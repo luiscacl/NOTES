@@ -1,0 +1,23 @@
+{
+  "company": "Nexton (TestParty)",
+  "website": "https://nexton.dev/talent",
+  "jobLink": "https://docs.google.com/document/d/1niC7ahkZJOQR914hpEJd9fY2cgKZvIdVZx0UcoTAADI/edit",
+  "position": "Senior Full-Stack Engineer",
+  "techStack": "Node.js, React.js, AWS, NestJS",
+  "status": "Rechazado",
+  "stage": "Entrevista con Reclutador",
+  "jobType": "Contractor",
+  "ISR": "2.5",
+  "teamSize": "8 people",
+  "applicationDate": "2024-08-28",
+  "industry": "TestParty is an automated digital accessibility platform for WCAG (Web Content Accessibility Guidelines) compliance. We help companies save more than $100k in fines annually through ADA (Americans with Disabilities Act) and European Accessibility Act (EAA) compliance.\n\n1-2 WEEKS TO COMPLETION  - 3.5 HOURS REQUIRED \nSTEP 1  - 30 min - Introcall with CEO \nSTEP 2  - 60 min - Technical Interview with CTO (Typescript) \nSTEP 3  - 60 min - Technical Interview with CTO (APIs) \nSTEP 4  - 60 min - Final interview with CEO & CTO",
+  "benefits": "100% remote\nPTO policy: 2 weeks\nHoliday policy: local holidays apply\nMaternity/Paternity leave",
+  "notes": "Ya consiguieron a otro candidato para esta vacante\n\n5-7k USD/m\n- Node.js, React.js, at least one cloud provider at scale (AWS/GCP/Azure), databases, CI/CD methodologies and related tools.\n- Strong TypeScript skills are essential. Candidates should demonstrate recent and significant experience with TypeScript.\n- Experience with technologies like Storybook and NesJS is highly valued.\n- Familiarity with automated testing for accessibility standards is important.\n- Familiarity with abstract syntax trees (ASTs) is super valued.\n- Candidates should have clear and specific descriptions of their contributions to projects. The lack of details is a red flag for them.",
+  "hourlySalaryUSD": "$40",
+  "monthlySalaryUSD": "$7,000",
+  "annualSalaryUSD": "$84,000",
+  "monthlySalaryMXN": "$137,825",
+  "annualSalaryMXN": "$1,653,899",
+  "monthlyNetSalaryMXN": "$134,379",
+  "annualNetSalaryMXN": "$1,612,552"
+}

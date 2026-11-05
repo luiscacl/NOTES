@@ -1,0 +1,344 @@
+{
+  "checklist": [
+    "Abre el sitio web de la empresa",
+    "Abre el link de la vacante",
+    "Entiende a qué se dedica la empresa",
+    "Mision y valores de la empresa",
+    "Porqué te interesa trabajar con nosotros?",
+    "",
+    "Repasar mi Curriculum",
+    "Practicar mi introducción",
+    "Practicar las preguntas comunes",
+    "Practicar resolución de conflictos con el método STAR",
+    "",
+    "Abre ChatGPT y explicale que estás en una interview y necesitas respuestas cortas",
+    "Code challenges: recuerda hacer preguntas suficientes para entender el problema",
+    "Code challenges: habla en voz alta explicando cómo vas abordando el problema",
+    "Graba la entrevista",
+    "",
+    "En la entrevista estas hablando con un cliente, no con un entrevistador, así que no digas, \"eso no lo sé\". En vez de eso intenta encontrar respuestas o di que vas a investigar mas para encontrar una solución ideal. Si muestras inseguridad ante un cliente, pueden dudar de tu capacidad. Lo mismo pasa con un entrevistador, así que muestra seguro, si no lo sabes, hazles saber que lo vas a saber y que el proyecto está en manos de un buen ingeniero.",
+    "No lo sabes todo, pero conoces más que suficiente para diseñar una solución para TODO lo que se te presente.",
+    "SOY EL MEJOR INGENIERO"
+  ],
+  "ask": [
+    "Rango salarial",
+    "Para qué proyecto estaría trabajando",
+    "Qué tech stack utilizan en el proyecto",
+    "Tamaño del equipo",
+    "Locación del equipo",
+    "Qué es lo que se espera de mi?",
+    "Me proveen computadora?",
+    "Juntas semanales, horarios del standup, ver si me pueden compartir el calendario semanal de juntas"
+  ],
+  "conflicts": [
+    {
+      "title": "Redy - Conflicto con Compañero: Migración a TypeScript",
+      "situation": "Propuse migrar el proyecto de JavaScript a TypeScript para tener un tipado fuerte tanto en el backend como en el frontend. Sin embargo, un compañero se resistió a la idea, argumentando que el proyecto ya funcionaba bien con JavaScript y que la migración a TypeScript sería innecesaria y costosa.",
+      "task": "Mi objetivo era convencer a mi compañero de los beneficios de usar TypeScript y lograr su apoyo para la migración del proyecto.",
+      "action": "Creé una lista detallada de los beneficios de utilizar TypeScript y la compartí con el equipo. Aunque mi compañero entendió los beneficios, seguía sin estar completamente convencido debido al esfuerzo que implicaría la migración. Curiosamente, esa misma semana, él creó un bug al acceder incorrectamente a una propiedad de un objeto (escribió \"numberOfSale\" en lugar de \"numberOfSales\"), lo que resultó en un error en la pantalla. Este incidente resaltó uno de los problemas que TypeScript podría prevenir, lo que finalmente lo convenció.",
+      "result": "Después de este error, mi compañero estuvo de acuerdo en migrar el proyecto a TypeScript. Comenzamos a implementar TypeScript en partes de la aplicación, y él mismo reconoció la comodidad del autocompletado en VSCode y otros beneficios. Se convirtió en un defensor de la migración y nos ayudó a completar el resto del proceso."
+    },
+    {
+      "title": "Redy - Conflicto con Product Manager: Nuevas Funcionalidades sin Extender el Plazo",
+      "situation": "Durante el desarrollo del MVP de la aplicación, el Product Manager (PM) continuaba añadiendo nuevas funcionalidades sin intención de extender la fecha de entrega. Esto generó estrés en el equipo, ya que la carga de trabajo aumentaba sin cambios en los plazos.",
+      "task": "Mi objetivo era encontrar una solución para gestionar las nuevas funcionalidades sin comprometer la calidad del MVP y sin generar estrés adicional en el equipo.",
+      "action": "Hablé con mis compañeros y propusimos una postura firme: cualquier funcionalidad nueva que no fuera crucial para el MVP 1 debería ser movida al MVP 2. Agendé una reunión con el PM, y juntos le explicamos que era necesario concentrarnos en entregar el MVP 1 a tiempo y con la mejor calidad posible. También le sugerimos que las funcionalidades adicionales se podrían incluir en la siguiente versión del MVP.",
+      "result": "El PM estuvo de acuerdo con nuestra propuesta y decidió mover algunas de las nuevas funcionalidades al MVP 2. Esto redujo la presión sobre el equipo, permitiéndonos entregar el MVP 1 a tiempo y con alta calidad."
+    },
+    {
+      "title": "Redy - Conflicto con Compañero: Trabajo Duplicado en un Ticket",
+      "situation": "Tuve una situación donde me metí al backlog de Jira para tomar un nuevo ticket de los que no estaban asignados. Después de trabajar 2 días en esa funcionalidad, vi que un compañero mandó un Pull Request implementando lo que yo estaba trabajando en mi ticket.",
+      "task": "Mi objetivo era evitar que esta falta de comunicación se repitiera y asegurar que los tickets en Jira fueran asignados de manera clara y visible para todos.",
+      "action": "Hablé con mi compañero para explicarle la situación y aclaramos que la confusión ocurrió porque él no había asignado el ticket en Jira. Para evitar futuros problemas, propuse que durante los standup diarios, el PM compartiera su pantalla y revisara el backlog de Jira para asegurarse de que todos los tickets estuvieran asignados correctamente. También se recordó a los desarrolladores la importancia de asignarse los tickets en Jira para evitar confusiones.",
+      "result": "Después de implementar esta práctica, no volvieron a ocurrir casos donde dos personas trabajaran en el mismo ticket sin saberlo. La comunicación y la asignación de tareas mejoraron considerablemente, lo que incrementó la eficiencia del equipo."
+    },
+    {
+      "title": "SoundHound - Conflicto con Jefe: Micromanagement",
+      "situation": "Mi jefe tenía la tendencia a hacer micromanagement, llamando varias veces al día para preguntar cómo íbamos con el trabajo. Esta situación comenzó a ser incómoda porque nos hacía sentir más presionados y afectaba nuestra concentración.",
+      "task": "Mi objetivo era encontrar una solución que mejorara la comunicación con mi jefe sin que afectara la productividad del equipo, manteniendo un flujo de trabajo menos interrumpido.",
+      "action": "Le comenté a mi jefe que recibir llamadas sin previo aviso y mantener conversaciones de 10 a 20 minutos interrumpía mi concentración y hacía difícil retomar el ritmo de trabajo. Le propuse que, al final de cada día laboral, le enviaría un mensaje con los avances de mi trabajo, para que estuviera informado sin necesidad de llamadas constantes. Además, sugerí implementar un mensaje automatizado en Slack, donde todos en el equipo pondríamos nuestro estatus diario.",
+      "result": "Mi jefe aceptó la propuesta, y al implementar el reporte diario, la frecuencia de las interrupciones se redujo significativamente. Esto no solo mejoró mi concentración, sino también la del equipo, al mantener a mi jefe informado sin afectar nuestra productividad."
+    },
+    {
+      "title": "SoundHound - Conflicto con Jefe: Expectativas Poco Realistas",
+      "situation": "Mi jefe solía establecer plazos de entrega muy cortos para las tareas, lo que generaba mucho estrés en el equipo debido a la presión por cumplir con tiempos que considerábamos poco realistas.",
+      "task": "Mi objetivo era encontrar una manera de establecer plazos más razonables, reduciendo el estrés en el equipo y mejorando la calidad del trabajo entregado.",
+      "action": "Decidí hablar con mis compañeros para entender sus puntos de vista y proponer una solución. Propuse implementar sesiones de planificación al inicio de cada sprint, donde todos los miembros del equipo podrían opinar sobre la complejidad de cada tarea y así asignarle un plazo de entrega más realista.",
+      "result": "Después de implementar estas sesiones de planificación, logramos que los plazos de entrega de los tickets fueran más ajustados al tiempo real que toma desarrollar las tareas. Como resultado, el estrés en el equipo se redujo considerablemente y la calidad del trabajo mejoró."
+    },
+    {
+      "title": "IBM - Conflicto con Subordinado: Programadora Poco Eficiente",
+      "situation": "Había una programadora recién salida de la universidad que, al unirse al equipo, tenía dificultades para completar cualquier ticket, lo que le generaba frustración.",
+      "task": "Mi objetivo era ayudarla a integrarse en el equipo y mejorar su eficiencia, para que pudiera contribuir de manera significativa al proyecto.",
+      "action": "Decidí tener una reunión con ella para entender cómo se sentía y descubrir la raíz del problema. Ella mencionó que se sentía frustrada porque no entendía el funcionamiento de la aplicación. Para ayudarla, busqué un curso en Udemy relacionado con Angular y le propuse a mi jefa que le permitiéramos dedicar tiempo completo a tomar este curso. Mi jefa aprobó la idea.",
+      "result": "Después de tres semanas, la programadora se reincorporó al equipo y comenzó a entregar tickets con rapidez. Me comentó que se sentía contenta de finalmente entender cómo programar en Angular, lo que mejoró significativamente su rendimiento y contribuyó al éxito del proyecto."
+    },
+    {
+      "title": "IBM - Conflicto con Subordinado: Falta de Revisión de Código",
+      "situation": "Los desarrolladores en mi equipo estaban haciendo merge de sus pull requests (PRs) sin recibir feedback ni seguir las mejores prácticas de código, lo que resultó en la implementación de malas prácticas como el uso incorrecto de event emitters en React.",
+      "task": "Mi objetivo era mejorar la calidad del código y asegurarme de que se siguieran las mejores prácticas, además de fomentar un ambiente de aprendizaje continuo a través de la retroalimentación.",
+      "action": "Organicé una sesión para explicarles a los desarrolladores que en React la programación seguía patrones diferentes y les enseñé cómo utilizar Redux correctamente. Además, añadí reglas en GitHub para que todos los PRs requirieran al menos una revisión antes de poder hacer merge, y solo otro compañero y yo estábamos autorizados para aprobar el merge.",
+      "result": "Con estas medidas, aseguré que todo el código que llegaba a la rama main era de alta calidad. Además, los desarrolladores comenzaron a recibir retroalimentación útil, lo que mejoró su habilidad en React y la calidad del código entregado."
+    },
+    {
+      "title": "IBM - Conflicto con Tiempos de Entrega: Proyecto Atrasado",
+      "situation": "En un proyecto nuevo, nos comprometimos a completarlo en seis meses. Sin embargo, cuando quedaban solo dos meses para la fecha de entrega, me di cuenta de que no alcanzaríamos a terminar el proyecto a tiempo.",
+      "task": "Mi objetivo era encontrar una solución que permitiera cumplir con la fecha de entrega sin sacrificar la calidad del proyecto ni omitir funcionalidades clave.",
+      "action": "Decidí hablar con mi jefa para discutir la situación y le propuse tres opciones: 1) priorizar las funcionalidades y eliminar aquellas que no eran indispensables, 2) solicitar el apoyo de uno o dos desarrolladores de otro equipo, 3) extender la fecha de entrega. Mi jefa optó por no cambiar la fecha ni eliminar funcionalidades, así que logró que nos prestaran a dos desarrolladores adicionales de otros equipos internos de IBM.",
+      "result": "Con el apoyo de los dos desarrolladores adicionales, logramos completar el proyecto a tiempo y con todas las funcionalidades incluidas, cumpliendo con los compromisos establecidos y satisfaciendo las expectativas del cliente."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Tell me about yourself",
+      "answer": "Mis principales fortalezas son mi capacidad para resolver problemas complejos, mi habilidad para aprender y adaptarme rápidamente a nuevas tecnologías, y mi enfoque en mejorar constantemente tanto a nivel personal como en equipo. También destaco en la comunicación efectiva, lo que me permite colaborar bien con otros departamentos y asegurar que los proyectos se completen con éxito."
+    },
+    {
+      "question": "¿Cuáles son tus fortalezas?",
+      "answer": "Mis principales fortalezas son mi capacidad para resolver problemas complejos, mi habilidad para aprender y adaptarme rápidamente a nuevas tecnologías, y mi enfoque en mejorar constantemente tanto a nivel personal como en equipo. También destaco en la comunicación efectiva, lo que me permite colaborar bien con otros departamentos y asegurar que los proyectos se completen con éxito."
+    },
+    {
+      "question": "¿Cuáles son tus debilidades?",
+      "answer": "En el pasado, he tenido la tendencia a ser muy perfeccionista, lo que a veces me llevaba a dedicar demasiado tiempo a detalles menores. Sin embargo, he aprendido a equilibrar la calidad con la eficiencia y a priorizar mejor mi tiempo para asegurarme de cumplir con los plazos sin sacrificar la calidad del trabajo."
+    },
+    {
+      "question": "¿Por qué estás buscando otro empleo?",
+      "answer": "Estoy buscando nuevas oportunidades que me permitan seguir creciendo como Senior Software Engineer. En mi trabajo actual he alcanzado muchos de los objetivos que me propuse y siento que es el momento adecuado para buscar un entorno donde pueda enfrentar nuevos desafíos, aprender tecnologías avanzadas y contribuir con mis habilidades en un equipo que valore la innovación."
+    },
+    {
+      "question": "¿Por qué deberíamos contratarte?",
+      "answer": "Tengo la confianza de que soy un gran fit para este puesto porque tengo una sólida experiencia en desarrollo full stack y he liderado proyectos exitosos que mejoraron tanto la eficiencia como la calidad del producto final. Además, soy proactivo al resolver problemas, adaptable a nuevas tecnologías y enfocado en entregar resultados que superen las expectativas. Creo que mi experiencia y habilidades serían una gran contribución para su equipo."
+    },
+    {
+      "question": "¿Por qué te gustaría trabajar aquí?",
+      "answer": "Estoy muy impresionado con la reputación de su empresa en la industria, especialmente con su enfoque en la innovación y la calidad. Me atrae la posibilidad de trabajar en proyectos desafiantes y colaborar con un equipo talentoso. Además, comparto los valores de la empresa y creo que aquí podré seguir desarrollando mi carrera mientras contribuyo al éxito de la organización."
+    },
+    {
+      "question": "¿Cuál ha sido la situación más difícil que has tenido que resolver en el trabajo?",
+      "answer": "Platicar el proyecto GRA de IBM, que no cumplimos con los tiempos. Uno de los desafíos más difíciles fue cuando me di cuenta de que no cumpliríamos con un plazo importante debido a la carga de trabajo y recursos limitados. Tomé la iniciativa de presentar varias opciones a mi jefe, como priorizar funcionalidades o pedir refuerzos de otros equipos. Mi enfoque proactivo permitió que el proyecto se completara a tiempo y con éxito, pese a las dificultades."
+    },
+    {
+      "question": "Situación donde fallé y qué aprendí.",
+      "answer": "En SoundHound prometí tener una landing page en 3 días y me llevó 5. Prometí completar una tarea en un plazo que, en retrospectiva, era demasiado optimista. No logré cumplir con ese plazo, lo que afectó a mi equipo. Aprendí que es mejor establecer plazos realistas y, si es posible, entregar antes de lo previsto, en lugar de apresurarse y correr el riesgo de no cumplir."
+    },
+    {
+      "question": "Un logro grande que hayas tenido.",
+      "answer": "En Redy teníamos el problema de que los usuarios no estaban utilizando nuevos features que integrábamos en la app, así que para mi fue un gran logro que se aumentara en un 50% el uso de las nuevas cosas que creabamos, gracias a que implementé Guided Tours, guiando a los usuarios paso a paso con tooltips sobre cómo utilizar cada herramienta"
+    },
+    {
+      "question": "Cuéntame sobre un proyecto desafiante en el que hayas trabajado y cómo lo abordaste.",
+      "answer": "Refactorizar la base de datos en SoundHound. Participé en un proyecto donde teníamos que integrar tecnologías muy diferentes para un producto complejo. Para superar los desafíos, establecimos un enfoque basado en microservicios, lo que permitió a cada equipo trabajar en su componente específico sin afectar a los demás. Además, realizamos pruebas de integración continuas para detectar problemas temprano y garantizar una entrega fluida."
+    },
+    {
+      "question": "Comenta alguna situación en la que hayas tenido que ayudar a algún compañero de trabajo y cómo lo hiciste.",
+      "answer": "Una vez, una compañera nueva tenía dificultades para entender la arquitectura de nuestra aplicación. Tomé la iniciativa de reunirnos, entender sus problemas, y luego le recomendé un curso que le ayudaría. Después de que completó el curso, su rendimiento mejoró notablemente, y se sintió más segura y competente en su trabajo."
+    },
+    {
+      "question": "Háblanos de alguna vez que mostraste liderazgo en el trabajo.",
+      "answer": "En IBM tomé el liderazgo del frontend en un proyecto. En un proyecto crítico, asumí el liderazgo para asegurarme de que todas las funcionalidades estuvieran alineadas con los plazos y estándares de calidad. Organicé reuniones diarias, distribuyendo tareas según las fortalezas de cada miembro del equipo, y aseguré una comunicación constante con el cliente. Gracias a esta organización, entregamos el proyecto a tiempo, superando las expectativas del cliente."
+    },
+    {
+      "question": "Cuéntame sobre una situación en la que enfrentaste desacuerdos dentro del equipo y cómo los resolviste.",
+      "answer": "Platicar la migración a TypeScript en Redy. Hubo una discusión sobre la elección de tecnologías para un nuevo proyecto. Algunos desarrolladores preferían una tecnología familiar, mientras que otros abogaban por una nueva y más prometedora. Organicé una reunión para escuchar todos los argumentos, identificar las fortalezas y debilidades de cada opción y, finalmente, llegamos a un consenso sobre la mejor opción para el proyecto."
+    },
+    {
+      "question": "¿Cómo manejas situaciones de alta presión y fechas límite ajustadas?",
+      "answer": "Ante situaciones de alta presión, priorizo las tareas junto con el equipo, asegurándome de que todos tengan claro el plan de acción. También identifico posibles riesgos y establezco medidas de contingencia. Durante todo el proceso, mantengo una comunicación abierta para abordar cualquier problema o preocupación que surja."
+    },
+    {
+      "question": "¿Cómo apoyas a perfiles más junior a seguir creciendo?",
+      "answer": "Haciendo reviews a sus PRs y brindando retroalimentación constructiva. También los guío en buenas prácticas y les recomiendo recursos de aprendizaje."
+    },
+    {
+      "question": "¿Cómo te mantienes al día con las tendencias y avances tecnológicos en la industria?",
+      "answer": "Me gusta asistir a conferencias y talleres técnicos, leer blogs y libros relevantes, y participar en comunidades en línea donde los profesionales comparten experiencias y conocimientos. También fomento que el equipo dedique tiempo a la formación continua y la investigación tecnológica."
+    },
+    {
+      "question": "¿Cómo motivas a tu equipo durante los períodos de desarrollo prolongados o desafiantes?",
+      "answer": "Durante períodos difíciles, me aseguro de reconocer y apreciar los logros del equipo, incluso los pequeños avances. También me mantengo disponible para brindar apoyo y orientación, y evito la microgestión, permitiendo que los miembros del equipo tengan la libertad para abordar los desafíos de manera creativa. Además, organizo eventos de team building y actividades sociales para mantener la moral alta y promover el trabajo en equipo."
+    },
+    {
+      "question": "¿Cómo garantizas que un proyecto se entregue dentro del plazo establecido?",
+      "answer": "Para garantizar el cumplimiento de plazos, utilizo la metodología ágil, dividiendo el proyecto en iteraciones manejables con entregas incrementales y periódicas. Superviso el progreso de manera constante y abordo los obstáculos que puedan surgir de inmediato. También involucro al equipo en la planificación, para que todos tengan visibilidad sobre las tareas y el tiempo estimado para completarlas."
+    },
+    {
+      "question": "¿Qué prácticas de seguridad consideras importantes en el desarrollo de software?",
+      "answer": "La seguridad es fundamental en el desarrollo de software. Implemento medidas como la autenticación y autorización adecuadas, el cifrado de datos sensibles, el manejo seguro de errores y la validación de entrada para evitar vulnerabilidades. Además, promuevo la realización de pruebas de seguridad y análisis de código estático para identificar posibles problemas de seguridad temprano en el proceso de desarrollo."
+    },
+    {
+      "question": "¿Cómo manejas las diferencias de opinión con otros líderes o stakeholders en un proyecto?",
+      "answer": "Cuando surgen diferencias de opinión, busco el entendimiento mutuo. Escucho las preocupaciones de los stakeholders y les presento los datos y argumentos que respaldan nuestras decisiones técnicas. Siempre priorizo los intereses del proyecto y busco soluciones que satisfagan tanto los requisitos técnicos como los objetivos del negocio. En última instancia, trabajar en equipo y llegar a un consenso es esencial para el éxito del proyecto."
+    },
+    {
+      "question": "¿Cómo promueves la colaboración y el trabajo en equipo dentro de tu equipo de desarrollo?",
+      "answer": "Fomento la colaboración organizando sesiones de brainstorming y reuniones de planificación donde todos los miembros del equipo pueden aportar sus ideas y perspectivas. También aliento la programación en parejas y el intercambio de conocimientos mediante la revisión de código. Celebrar logros colectivos y reconocer las contribuciones individuales también es importante para fortalecer el espíritu de equipo."
+    },
+    {
+      "question": "¿Cómo manejarías una situación en la que un miembro del equipo está teniendo dificultades para cumplir con sus responsabilidades?",
+      "answer": "En primer lugar, hablaría en privado con el miembro del equipo para comprender las dificultades y preocupaciones que puedan estar enfrentando. Luego, ofrecería apoyo adicional, capacitación o recursos si es necesario. Si el problema persiste, exploraría la posibilidad de redistribuir tareas dentro del equipo o brindar oportunidades para que el miembro mejore sus habilidades. La clave es abordar el problema con empatía y buscar soluciones constructivas."
+    },
+    {
+      "question": "¿Cómo abordas la retroalimentación negativa o las críticas al trabajo de tu equipo?",
+      "answer": "Veo la retroalimentación negativa como una oportunidad para mejorar. Escucho cuidadosamente los comentarios y me aseguro de comprender completamente los problemas planteados. Luego, discuto constructivamente con el equipo para identificar soluciones y trabajar en la mejora continua. Agradezco a quienes proporcionan la retroalimentación, ya que esto nos ayuda a crecer como equipo y a entregar productos de mayor calidad."
+    },
+    {
+      "question": "¿Cómo manejarías el caso de un conflicto entre dos miembros de tu equipo?",
+      "answer": "En primer lugar, abordaría el conflicto en privado con cada miembro del equipo para comprender sus perspectivas y preocupaciones. Luego, intentaría mediar y encontrar un terreno común. Si el conflicto persiste, buscaría la ayuda de recursos internos, como recursos humanos o un mentor, para ayudar a resolver la situación de manera justa y equitativa."
+    },
+    {
+      "question": "¿Cuál ha sido tu mayor desafío técnico hasta ahora y cómo lo resolviste?",
+      "answer": "En un proyecto anterior, nos enfrentamos a un problema de rendimiento inesperado. Realizamos un profundo análisis del código y las consultas de base de datos, identificando cuellos de botella y optimizando el código en consecuencia. Además, implementamos una estrategia de almacenamiento en caché para mejorar la velocidad de respuesta. Trabajar en equipo y aplicar una combinación de enfoques técnicos nos permitió superar el desafío con éxito."
+    },
+    {
+      "question": "¿Cómo te aseguras de mantener un equilibrio entre tu trabajo y tu vida personal, especialmente en proyectos exigentes?",
+      "answer": "Para mantener un equilibrio entre el trabajo y la vida personal, establezco límites claros y respeto mi tiempo libre. Organizo mi día de trabajo de manera eficiente para evitar la procrastinación y maximizar mi productividad. También planifico actividades fuera del trabajo que me ayuden a relajarme y desconectar, como hacer ejercicio o pasar tiempo con mi familia y amigos."
+    },
+    {
+      "question": "¿Cómo manejas situaciones de alta presión en el trabajo?",
+      "answer": "Cuando enfrento situaciones de alta presión, primero me aseguro de mantener la calma. Luego, priorizo las tareas, establezco un plan de acción claro y delego responsabilidades cuando sea necesario. También, me comunico de manera efectiva con mi equipo y estoy dispuesto a ajustar mi enfoque según las circunstancias cambien."
+    },
+    {
+      "question": "¿Puede proporcionar un ejemplo de una situación en la que tuvo que tomar una decisión técnica importante en un proyecto de software?",
+      "answer": "En un proyecto anterior, nos enfrentamos a un problema de rendimiento crítico en una aplicación web. Después de un análisis exhaustivo, identifiqué que el problema estaba en la base de datos. Consideré opciones como la optimización de consultas y la escalabilidad de la infraestructura de la base de datos. Finalmente, decidí migrar a una base de datos NoSQL para mejorar el rendimiento. Esto resultó en una mejora significativa en la velocidad de respuesta de la aplicación."
+    }
+  ],
+  "systemsDesign": [
+    {
+      "section": "Functional Requirements",
+      "content": [
+        "Functional requirements are your <strong>\"Users should be able to...\"</strong> statements.",
+        "These are the core features of your system and should be the first thing you discuss with your interviewer.",
+        "Ask targeted questions as if you were talking to a client: <strong>\"does the system need to do X?\", \"what would happen if Y?\"</strong>.",
+        "Identify and prioritize the <strong>top 3 requirements</strong>.",
+        "",
+        "Twitter Functional requirements:",
+        "- Users should be able to <strong>post tweets</strong>",
+        "- Users should be able to <strong>follow other users</strong>",
+        "- Users should be able to <strong>see tweets from users they follow</strong>"
+      ]
+    },
+    {
+      "section": "Non-Functional Requirements",
+      "content": [
+        "Non-functional requirements are statements about the system qualities that are important to your users.",
+        "These can be phrased as <strong>\"The system should...\"</strong> statements (use cuantificable data).",
+        "",
+        "Twitter Non-functional requirements:",
+        "- The system should have <strong>high availability</strong>, prioritizing availability over consistency.",
+        "- The system should <strong>scale to support 100M+ DAUs.</strong>",
+        "- The system should have <strong>low latency, rendering feeds in under 200ms.</strong>",
+        "",
+        "",
+        "<strong>CAP Theorem:</strong> Should your system prioritize consistency or availability? Note, partition tolerance is a given in distributed systems. ",
+        "The CAP Theorem says that only 2 of these 3 things can be accomplished simultaneously: Consistency, Availability and Partition Tolerance.",
+        "",
+        "<strong>Scalability:</strong> Does traffic increases at a specific time of day? Are there events, like holidays, that will cause a significant increase in traffic? Does your system need to scale reads or writes more?",
+        "",
+        "<strong>Latency:</strong> How quickly does the system need to respond to user requests?",
+        "",
+        "<strong>Durability:</strong> How important is it that the data in your system is not lost? For example, a social network might be able to tolerate some data loss, but a banking system cannot.",
+        "",
+        "<strong>Security:</strong> How secure does the system need to be? Consider data protection, access control, and compliance with regulations.",
+        "",
+        "<strong>Compliance:</strong> Are there legal or regulatory requirements the system needs to meet? Consider industry standards, data protection laws, and other regulations."
+      ]
+    },
+    {
+      "section": "Core Entities",
+      "content": [
+        "Identify the core entities of you system. Don't list the entire data model at this point.",
+        "",
+        "Twitter Core entities:",
+        "- User",
+        "- Tweet",
+        "- Follow"
+      ]
+    },
+    {
+      "section": "API Design",
+      "content": [
+        "Before you get into the high-level design, you'll want to define the contract (<strong>endpoints</strong>) between your system and its users.",
+        "",
+        "<code>GET /feed -> Tweet[]</code>",
+        "",
+        "<code>GET /tweet/:tweetId -> Tweet</code>",
+        "",
+        "<code>POST /tweet</code>",
+        "",
+        "<code>POST /follow/:userId</code>"
+      ]
+    },
+    {
+      "section": "High Level Design",
+      "content": [
+        "Now that you have a clear understanding of the requirements, entities, and API of your system, you can start to design the high-level architecture.",
+        "This consists of <strong>drawing boxes and arrows</strong> to represent the different components of your system and how they interact.",
+        "Your primary goal is to design an architecture that satisfies the API you've designed the requirements.",
+        "",
+        "Focus only in the <strong>Functional Requirements</strong>, don't think in scalability or optimization yet, because you can get frozen if you try to do everything at once."
+      ]
+    },
+    {
+      "section": "Deep Dives",
+      "content": [
+        "Now resolve the <strong>Non-Functional Requirements.</strong>",
+        "Think all the challenges with <strong>scalability, availability, optimization</strong> and make improvements in your design.",
+        "Identifying and addressing bottlenecks, optimizing performance, and ensuring system reliability."
+      ]
+    },
+    {
+      "section": "Components",
+      "content": [
+        "- Client",
+        "",
+        "- Load Balancers",
+        "",
+        "- API Gateway",
+        "",
+        "- Microservices",
+        "",
+        "- Cache",
+        "",
+        "- Database",
+        "<div style=\"margin: 4px 16px;\">- Indexes</div>",
+        "<div style=\"margin: 4px 16px;\">- Partitions</div>",
+        "<div style=\"margin: 4px 16px;\">- Shards</div>",
+        "<div style=\"margin: 4px 16px;\">- Replicas</div>",
+        "",
+        "- Blob Storage",
+        "",
+        "- CDN",
+        "",
+        "- Queues - Pool of workers",
+        "",
+        "- Distributed Lock (with a predefined TTL (Time To Live))",
+        "",
+        "- Monitoring (create or remove new pods on demand, send alarms)"
+      ]
+    },
+    {
+      "section": "Glossary",
+      "content": [
+        "<strong>DAUs</strong> = Daily Active Users",
+        "",
+        "<strong>QPS</strong> = Queries Per Second",
+        "",
+        "<strong>TPS</strong> = Transactions Per Second",
+        "",
+        "<strong>ACL</strong> = Access Control List"
+      ]
+    }
+  ],
+  "systemsDesignExamples": [
+    { "name": "Dropbox my solution" },
+    { "name": "Dropbox" },
+    { "name": "YouTube" },
+    { "name": "Uber" },
+    { "name": "TicketMaster my solution", "customWidth": "85%" },
+    { "name": "TicketMaster" },
+    { "name": "Facebook Feed", "customWidth": "70%" },
+    { "name": "WhatsApp", "customWidth": "80%" },
+    { "name": "Tweet Search", "customWidth": "80%" },
+    { "name": "Top-K Youtube Videos" }
+  ]
+}

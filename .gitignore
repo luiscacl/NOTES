@@ -1,0 +1,10 @@
+# Salida de Maven (se regenera con ./mvnw verify)
+target/
+
+# Archivos que crea Python/13_archivos_y_stdlib.py al ejecutarse
+__pycache__/
+
+# Basura del sistema
+Thumbs.db
+desktop.ini
+.DS_Store

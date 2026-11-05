@@ -1,0 +1,7 @@
+# Solo con el perfil "prod" activo. Sobrescribe lo que cambia en producción;
+# todo lo demás se hereda de shop.yml.
+
+shop:
+  payments:
+    provider-url: https://api.pagos.example
+    timeout: 2s

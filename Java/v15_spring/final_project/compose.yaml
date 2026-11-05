@@ -1,0 +1,46 @@
+# La tienda con Docker Compose (README.md, "Correrla"). Desde final_project/:
+#
+#   Desarrollo: solo la base. Spring Boot la levanta SOLO al correr la app con el perfil dev
+#   (spring-boot-docker-compose), y configura la conexión sin escribir la URL:
+#       ./mvnw -pl final_project spring-boot:run -Dspring-boot.run.profiles=dev     (desde v15_spring/)
+#
+#   Todo en contenedores (como en un servidor), con el jar ya construido:
+#       docker compose --profile app up -d --build
+#       docker compose --profile app down
+services:
+  db:
+    image: postgres:17
+    environment:
+      POSTGRES_DB: tienda
+      POSTGRES_USER: tienda
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-tienda-local}          # local; en un servidor, de un secreto
+    ports:
+      - "5432"                                                  # un puerto libre de tu máquina
+    healthcheck:                                                # "lista" = acepta conexiones, no "arrancó"
+      test: ["CMD", "pg_isready", "-U", "tienda", "-d", "tienda"]
+      interval: 2s
+      timeout: 3s
+      retries: 15
+    volumes:
+      - tienda-data:/var/lib/postgresql/data                    # los datos sobreviven a "down"
+
+  app:
+    profiles: ["app"]                                           # solo con --profile app
+    build: .
+    image: tienda-final
+    ports:
+      - "8080:8080"
+    environment:                                                # la configuración entra por variables
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/tienda   # "db": el nombre del servicio, no localhost
+      SPRING_DATASOURCE_USERNAME: tienda
+      SPRING_DATASOURCE_PASSWORD: ${DB_PASSWORD:-tienda-local}
+      SHOP_ADMIN_PASSWORD: ${SHOP_ADMIN_PASSWORD:-admin-local-123}
+      SHOP_JWT_EPHEMERAL_KEYS: "true"                           # en un servidor: SHOP_JWT_PUBLIC_KEY y _PRIVATE_KEY
+    depends_on:
+      db:
+        condition: service_healthy
+    mem_limit: 768m
+    stop_grace_period: 40s
+
+volumes:
+  tienda-data:
